@@ -23,3 +23,8 @@ A repository which contains configuration and useful resources in order to monit
     ```
     docker exec -t -i nagios4 /bin/bash
     ```
+1. If you have modified the configuration you can check it without restarting docker container using the command (inside the container):
+
+    ```
+    /opt/nagios/bin/nagios -v /opt/nagios/etc/nagios.cfg
+    ```
