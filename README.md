@@ -28,3 +28,8 @@ A repository which contains configuration and useful resources in order to monit
     ```
     /opt/nagios/bin/nagios -v /opt/nagios/etc/nagios.cfg
     ```
+1. To see docker logs , execute the command:
+
+    ```
+    docker logs -f --tail 10 nagios4
+    ```
