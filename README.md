@@ -18,3 +18,8 @@ A repository which contains configuration and useful resources in order to monit
         jasonrivers/nagios:latest
         ```
 1. Copy template config to ```/opt/nagios/etc``` directory.
+1. If we want to execute a bash shell into the container, we execute:
+
+    ```
+    docker exec -t -i nagios4 /bin/bash
+    ```
